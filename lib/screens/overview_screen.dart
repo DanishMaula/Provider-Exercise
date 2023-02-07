@@ -12,7 +12,7 @@ class OverviewScreen extends StatelessWidget {
       10,
       (index) => Model(
         title: 'Title ${index + 1}',
-        description: 'Description ${index + 1}',
+        description: 'This is Description ${index + 1}',
         imageUrl: 'https://picsum.photos/200/300?random=$index',
       ),
     );
