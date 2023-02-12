@@ -8,6 +8,7 @@ class ItemList extends StatelessWidget {
   final String title;
   final String description;
   final String imageUrl;
+  
   const ItemList(
       {super.key,
       required this.title,
